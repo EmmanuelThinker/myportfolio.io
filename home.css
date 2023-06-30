@@ -1,0 +1,306 @@
+nav{
+    background-color: rgb(220, 234, 238) !important;
+    z-index: 100%;
+    height: 10%;
+    position: fixed;
+    top: 0;
+    width:100% !important;
+    border-radius: 6px;
+    
+    }
+
+
+    nav li {
+        display: flex;
+        
+         text-decoration:none;
+         float: left;
+         display: block;
+         text-decoration: none;
+         padding: 50px;
+         padding-top: 2vh;
+         font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .links li a{
+        display: flex;
+        margin-left: 50px;
+        text-decoration: none;
+    }
+
+    .logo img{
+        display: flex;
+        width: 30px;
+        height: 30px;
+        border-radius:15px;
+    
+        margin-top: -10px;
+        
+    }
+
+
+
+    #home {
+        background-color: rgb(240, 244, 243);
+        height: 600px;
+    }
+    
+    
+    
+    
+   
+    
+        .greetings h1{
+            padding-top: 10vh;
+            margin-left: 40px;
+            font-size: 150px;
+            font-family:Arial;
+            
+        }
+        .greetings h3{
+         margin-left: 40px;
+         font-family:Arial;
+        }
+    
+
+
+            #about {
+                background-color: rgb(225, 246, 239);
+                height: 700px;
+            }
+
+            
+
+
+                .about{
+            
+                padding-top: 10vh;
+                text-align: center;
+                     }
+
+            #about .page{
+                display: flex;
+                padding: 20px;
+                font-family: arial;
+                font-size: medium;
+                
+            }
+            
+            #about img{
+             width: 300px;
+             height: 300px;
+             margin-left:150px; 
+             border-radius: 150px;
+             margin-top: 70px;
+            
+               
+            }
+
+            .skills {
+                background-color: rgb(229, 243, 238);
+                height: 800px;
+            }
+
+           .sk{
+                text-align: center;
+                padding-top: 15vh;
+                font: optional;
+            }
+            
+            .skills img{
+                width: 400px;
+                margin-left: 700px;
+                border-radius: 5px;
+                margin-top: -140px;
+            }
+            
+            .data{
+                
+                color: rgb(18, 17, 19);
+                list-style: none;
+                font-weight: 10px;
+                word-spacing: 15px;
+                font-variant: unset;
+                font-style: initial;
+                padding: 20px;
+                margin-top: 20px;
+                padding-left: 100px;   
+            }
+
+            #portfolio {
+                background-color: rgb(224, 227, 226);
+                height: 800px;
+            }
+        
+             #portfolio.works li{
+                display: flex !important;
+            
+                        }
+
+
+            #portfolio ul li{
+                display: inline;
+                padding: 100;
+                border-radius: 10px;
+                margin-top: 10px;
+                justify-content: space-evenly;
+            }
+            
+            #portfolio img{
+                border-radius: 2px;
+            }
+            #portfolio  #port{
+              padding-top: 5vh;
+            text-align: center;
+                
+            }
+
+
+            
+
+          
+            
+                   #contact ul li{
+                    list-style-type: style none;
+                    display: inline-block;
+                    line-height: 100px;
+                    float: left;
+                    margin-top: -10px;
+                    }
+                
+                     #contact ul li a:hover{
+                    color:rgb(183, 43, 226)
+                    }
+                
+                     #contact ul li a{
+                        text-decoration: none;
+                        font-size: 14px;
+                        font-family: arial;
+                        color: greenyellow;
+                        padding:30px;
+                        
+                        }
+                     #contact .logo img{
+                            margin-left: 20px;
+                            width: 40px;
+                            border-radius: 20px;
+                            margin-top: -10px;
+            
+                        }
+
+
+            #contact form{
+                float:right;
+                margin-right: 60px;
+                padding: 5px; 
+                padding-top: 0.1vh;
+            }
+            
+            
+            .phone{
+                margin-right: 60px;
+                padding-top: 60px;
+                padding: 15px;
+                word-spacing: 10px;
+                font-family: Arial;
+              
+
+               
+               
+               
+            
+            
+            }
+            #contact {
+                background-color: rgb(215, 225, 225) !important;
+                height: 700px;
+            }  
+                #contact form input{
+                border: 1px solid;
+                background-color: rgb(187, 209, 209);
+                border-radius: 5px;
+                text-decoration: none;
+                padding: 5px;
+                margin: 10px;
+               }
+                
+
+               
+               #contact form{
+                   margin-top: -400px;
+               }
+             
+                textarea{
+                    min-height: 20vh;
+                    width: 32vw;
+                    border-radius: 2vh;
+                    border: 1px solid;
+                    
+                    background-color: rgb(183, 199, 199);
+                }
+                textarea:hover{
+                    cursor: pointer;
+                    background-color:rgb(182, 183, 202);
+                    transition: 3s all;
+
+                }
+
+              
+            #contact ul li{
+                list-style: none;
+                text-decoration: none;
+                padding: 3px;
+            }
+            #contact .con{
+                padding-top: 30px;
+                text-align: center;
+               
+            }
+            
+           .footer{
+               display: flex;
+               justify-content: space-evenly;
+               padding-top: 10vh;
+               margin-top:50vh ;
+           }
+                
+          
+            
+            #contact footer{
+              
+                height: 300px;
+                width:auto;
+            
+                background-color: rgb(196, 201, 203);
+                text-decoration: royalblue;}
+                
+                @media screen and (max-width: 800px) {
+                    .works, .navbar {
+                      flex: 50%;
+                      max-width: 50%;
+                    }
+                  }
+           
+    
+    
+        
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
